@@ -1,0 +1,539 @@
+body {
+    background-color: #333333;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.nav {
+    border: 1px solid #b1a592;
+    border-radius: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 20px;
+}
+
+.start {
+    display: flex;
+    gap: 10px;
+}
+.coll:hover,
+.menu:hover,
+.eve:hover,
+.cont:hover{
+    background: #B1A592;
+    color: black;
+}
+
+.com {
+    width: 220px;
+    height: 45px;
+    background: #323025;
+    border-radius: 45px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #b1a592;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coll,
+.menu,
+.eve,
+.cont {
+    width: 160px;
+    height: 45px;
+    border: 1px solid #B1A592;
+    border-radius: 45px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B1A592;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container {
+    margin: 20px 35px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 600px;
+    color: white;
+    gap: 15px;
+
+}
+
+.item1 {
+    width: 500px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 30px;
+    background: #DFD6C5;
+}
+
+.box {
+    width: 207px;
+    height: 34px;
+    border: 1px solid #323025;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #323025;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 15px 0 15px;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    color: #333333;
+    margin: 30px 15px 0 15px;
+}
+img{
+    transition: 1s;
+}
+.image1 {
+    width: 465px;
+    height: 90vh;
+    border-radius: 20px;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+.item1:hover img{
+    transform: scale(1.1);
+}
+
+.border {
+    border: 1px solid #333333;
+    margin-top: 10px;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 15px 0 15px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #333333;
+    
+}
+
+.item2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border-radius: 30px;
+    background: #8E886D;
+    border-radius: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.text {
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.right {
+   
+    margin-top: 40px;
+    width: 400px;
+    height: 180px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.image2 {
+    width: 410px;
+   
+  
+}
+
+.item2:hover img{
+    transform: scale(1.1);
+
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #333333;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    width: 2000px;
+    height: 25px;
+    
+}
+
+.item3 {
+    width: 460px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-radius: 30px;
+    background: #916E58;
+    
+}
+
+.box3 {
+    margin: 12px 13px 0 7px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.image3 {
+    width: 440px;
+    transition: 1s;
+}
+
+.item3:hover img{
+    transform: scale(1.1);
+}
+
+.port {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #333333;
+    margin-left: 15px;
+}
+
+.item4:hover .portline{
+    width: 128px;
+    border: 2px solid #333333;
+    margin-left: 15px;
+    animation: ani 0.2s linear ;
+}
+.item3:hover .portline {
+    width: 128px;
+    border: 2px solid #333333;
+    margin-left: 15px;
+    animation: ani 0.2s linear ;
+}
+
+
+.text3 {
+    font-weight: 400;
+    margin: 20px 15px;
+    color: #333333;
+}
+
+.last3 {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #333333;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    margin-top: 45px;
+}
+
+.item4 {
+    width: 460px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+   
+    border-radius: 30px;
+    background: #B1A48E;
+    
+}
+
+.disp {
+    display: flex;
+    gap:130px;
+    align-items: center;
+    margin: 0 15px;
+}
+.portimg{
+    width:100px;
+    height:100px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.image4{
+    width:100px;
+}
+
+.item4:hover img{
+    transform: scale(1.1);
+}
+
+.text4 {
+    color: #333333;
+    font-weight: 400;
+    margin: 5px 15px;
+}
+
+.last4 {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #333333;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    margin-top: 40px;
+}
+
+
+@keyframes ani {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 128px;
+    }
+}
+@keyframes small {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 80px;
+    }
+}
+
+@media (max-width:952px) {
+    .nav {
+        width:850px ;
+        font-size: 20px;
+    }
+
+    .com {
+        width: 150px;
+    }
+
+    .coll {
+        width: 130px;
+    }
+
+    .menu {
+        width: 100px;
+    }
+
+    .eve {
+        width: 100px;
+    }
+
+    .cont {
+        width: 100px;
+    }
+
+    .container {
+        width: 880px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 200px 600px;
+        gap: 5px;
+    }
+
+    .item1 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        width: 300px;
+    }
+    .image1{
+        width: 250px;
+    }
+    .item2 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        width: 500px;   
+    }
+    .right{
+        width: 200px;
+    }
+    .image2{
+        width: 200px;
+    }
+    .text{
+        font-size: 10px !important;
+    }
+    .heading{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .item3{
+        width: 250px;
+    }
+    .image3{
+        width: 150px;
+    }
+    .port{
+        font-size: 20px;
+    }
+    .portline{
+        animation: small 2s linear infinite;
+    }
+    .text3{
+        font-size: 10px !important;
+        
+    }
+    span{
+        font-size: 20px !important;
+    }
+    .item4{
+        width: 250px;      
+    }
+    .text4{
+        font-size: 10px !important;
+    }
+    .box{
+        font-size: 18px;
+        width: 180px;
+    }
+}
+
+@media (max-width:858px) {
+    .nav {
+        font-size: 18px;
+        width: 580px;
+    }
+
+    .com {
+        width: 350px;
+    }
+
+    .menu {
+        width: 130px;
+        margin-left: 70px;
+    }
+
+    .coll,
+    .eve,
+    .cont {
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        flex-flow: column;
+    }
+    .item1{
+        width: 500px;
+        height: 630px;
+        margin: 20px;
+    }
+    .box{
+        width: 180px;
+        height: 30px;
+    }
+    .image1{
+        width: 350px;
+        height: 400px;
+        margin: 20px 10px;
+    }
+    .item2{
+        width: 500px;
+        height: 300px;
+        margin: 20px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .item3{
+        width: 500px;
+        height: 500px;
+        margin: 20px;
+    }
+    .image3{
+        width: 350px;
+    }
+    .item4{
+        width: 500px;
+        height: 450px;
+        margin: 20px;
+    }
+}
+
+@media (max-width:685px) {
+    .nav {
+        font-size: 18px;
+        width: 500px;
+    }
+
+    .com {
+        width: 300px;
+    }
+
+    .menu {
+        width: 130px;
+        margin-left: 30px;
+    }
+
+    .coll,
+    .eve,
+    .cont {
+        display: none;
+    }
+    .container{
+        display: flex;
+        flex-flow: column;
+    }
+    .item1{
+        width: 450px;
+        height: 600px;
+        margin: 10px;
+    }
+    .box{
+        width: 180px;
+        height: 30px;
+    }
+    .image1{
+        width: 350px;
+        height: 400px;
+        margin: 20px 10px;
+    }
+    .item2{
+        width: 450px;
+        height: 300px;
+        margin: 10px;
+    }
+    .heading{
+        font-size: 16px;
+    }
+    .right{
+        width: 100px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .item3{
+        width: 450px;
+        height: 500px;
+        margin: 10px;
+    }
+    .image3{
+        width: 330px;
+    }
+    .item4{
+        width: 450px;
+        height: 450px;
+        margin: 10px;
+    }
+}
